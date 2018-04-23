@@ -1,0 +1,28 @@
+{
+  "name": "clocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha *.test.js",
+    "test-watch": "./node_modules/.bin/nodemon --exec 'npm test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milman-MA/clocker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Milman-MA/clocker/issues"
+  },
+  "homepage": "https://github.com/Milman-MA/clocker#readme",
+  "devDependencies": {
+    "expect": "^22.4.3",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "js-data": "^3.0.2"
+  }
+}
